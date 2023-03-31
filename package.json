@@ -2,12 +2,12 @@
   "name": "movie-finder-api",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://viktormashyka.github.io/movie-finder-api",
+  "homepage": "https://viktormashyka.github.io/movie-finder-api/",
   "scripts": {
     "format": "prettier-eslint --write \"src/**/*.js\"",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Easy-Start/"
+    "build": "parcel build src/*.html --public-url /movie-finder-api/"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,57 @@
+h6 {
+    color: green;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 20px 0; 
+    background-color: #F7F7F7;
+    margin-top: 25px;
+        @media screen and (min-width: ($tablet)) {
+            height: 80px;
+            padding-bottom: 30px;;
+        };
+
+    &>.container {
+
+
+        padding: 0;
+        @media screen and (min-width: ($tablet)) {
+            display: flex;
+            justify-content: center;
+        };
+
+        & > p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        @include font(null, null, 14px, 16px, null, null, center, var(--title-color), null);
+        margin-bottom: 10px;
+       
+           
+        @media screen and (min-width: ($tablet)) {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 0;
+        }; 
+    };
+    
+    
+};
+&--team {
+    text-decoration: underline;
+    cursor: pointer;
+}
+};
+ .footer--icon {
+        margin-right: 10px;
+        margin-left: 10px;
+        };
+.footer > span > p > span:hover,
+.footer > span > p > span:focus {
+    color: var(--button-hover-color);
+    transform: scale(1.05);
+    transition: var(--transition-duration, --transition-timing-function);
+}
